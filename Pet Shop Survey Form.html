@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Form</title>
+    <link rel="stylesheet" href="petshop.css">
+</head>
+<body>
+
+    <h1 id="title">
+        Pet Shop Survey Form
+    </h1>
+
+    
+    <p id="description">
+            Welcome to the Good Homies Pet Shop. Please answer the following questions to help us better serve you.
+    </p>
+
+
+    <form id="survey-form"> 
+
+
+    <fieldset>
+
+        <legend>Tell us about your yourself</legend>
+           
+        <label for="name" id="name-label"> Name: <input id="name" type="text" placeholder="Enter your name" required></input> </label>
+        <label for="email" id="email-label"> Email:  <input id="email" type="email" placeholder="Enter your email address" required></input> </label>
+    
+    </fieldset>
+
+    <fieldset>
+
+        <legend>Tell us about your your pets</legend>
+        <label id="number-label"> How many pets do you have? <input id="number" type="number" placeholder="Enter the amount of pets you have" min="1" max="100" required></input></label>
+        <label> What is your favorite pet? 
+        <label for="cat"><input id="cat" type="radio" name="pet-type" value="cat" class="inline" checked /> Cat</label>
+        <label for="dog"><input id="dog" type="radio" name="pet-type" value="dog" class="inline"/> Dog</label>
+        <label for="Hamster"><input id="Hamster" type="radio" name="pet-type" value="Hamster" class="inline"/> Hamster</label>
+    
+    </fieldset>
+
+    <fieldset>
+
+        <legend>Book in your pets</legend>
+
+        <h5>Select which day you want book in your pets</h5>
+           
+            <label for="Monday">Monday <input type="checkbox" id="Monday" name="Monday" value="Monday" class="inline"></input></label>
+            
+            <label for="Tuesday">Tuesday <input type="checkbox" id="Tuesday" name="Tuesday" value="Tuesday" class="inline"></input></label>
+        
+
+            <label for="Wednesday">Wednesday <input type="checkbox" id="Wednesday" name="Wednesday" value="Wednesday" class="inline"></input></label>
+           
+
+            <label for="Thursday">Thursday <input type="checkbox" id="Thursday" name="Thursday" value="Thursday" class="inline"></input></label>
+           
+            
+            <label for="Friday">Friday <input type="checkbox" id="Friday" name="Friday" value="Friday" class="inline"></input></label>
+        
+        
+    
+    </fieldset>
+
+
+    <fieldset>
+
+    <legend>Feedback</legend>
+
+    <label>Why did you choose Good Homies Pet Shop?</label>
+    <select id="dropdown" name="dropdown">
+        <option value="">(select one)</option>
+        <option value="1">Quality Service</option>
+        <option value="2">Customer Support</option>
+        <option value="3">Variety of equipment</option>
+        <option value="4">Other</option>
+      </select>
+
+    <textarea rows="3" cols="30"  placeholder="Any other feedback is appreciated"></textarea>
+
+  </fieldset>
+     
+    <input type="submit" id="submit"></input>
+
+
+
+    </form>
+    
+</body>
+</html>

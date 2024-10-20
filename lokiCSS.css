@@ -1,0 +1,90 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');img{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+    border-radius: 10px;
+
+}
+.img-caption{
+
+    padding: 5px;
+    margin-top: 0px;
+   
+    
+}
+
+h1{
+  font-family: 'Montserrat';
+  font-size: 3rem;
+  text-decoration:underline;
+}
+
+h3, li{
+
+padding-top: 2px;
+margin-top: 3px;
+list-style-type: none;
+text-align: justify;
+
+
+}
+
+body{
+    background: url(loki\ background.jpg) no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+
+
+
+}
+
+.container{
+background-color: rgb(95, 113, 38);
+width:50%;
+height: 100%;
+margin: auto;
+transform: translateY(15%);
+padding: 2rem;
+border-radius: 15px;
+}
+
+
+
+p{
+
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 2.1rem;
+}
+
+a:link {
+    color: rgb(79, 216, 79);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: plum;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }

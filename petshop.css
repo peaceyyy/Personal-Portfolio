@@ -1,0 +1,78 @@
+
+h1{
+  color: orange;
+
+}
+
+p{
+ color: white;
+
+}
+
+fieldset{
+
+text-align: left;
+font-family: 'Franklin Gothic Medium';
+font-weight: 200;
+font-size: 20px;
+color:blueviolet; 
+
+
+}
+
+label {
+  display: block;
+  color: cyan;
+  margin: 0.5rem 0;
+  font-size: 16px;
+  text-align: left;
+   
+}
+
+
+body {
+    background-color: #1b1b32;
+    font-family: Tahoma;
+    font-size: 16px;
+    text-align: center;
+  }
+
+input, select{
+
+    display: block;
+    margin: 10px 0 10px 0;
+    width: 100%;
+    min-height: 2em;
+    
+    
+}
+
+select{
+
+  width: 300px;
+
+
+
+}
+form {
+  width: 10000px;
+  max-width: 1000px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+fieldset {
+
+  margin-top: 15px;
+
+
+}
+
+.inline{
+  display: inline; 
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
